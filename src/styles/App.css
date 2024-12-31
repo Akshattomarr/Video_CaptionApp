@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.video-player-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-wrapper {
+  position: relative;
+}
+
+.video-wrapper video {
+  width: 100%;
+  display: block;
+}
+
+.caption-overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+  pointer-events: none;
+}
+
+.play-pause-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-pause-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.video-player-container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #000;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption-overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.play-pause-btn,
+.fullscreen-btn {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-pause-btn:hover,
+.fullscreen-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.caption-overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
